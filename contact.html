@@ -8,6 +8,73 @@
     <title>Bootstrap Portfolio Contact Me</title>
 </head>
 <body>
-    
+
+<!-- Nav Bar Section -->
+
+    <div class="container md">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <p class= "p-3 m-auto bg-info text-white">Tuere Thomas</p>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+                    </li>                    
+                </ul>
+            </div>
+        </nav>    
+                
+<!-- Form Section -->
+
+        <div><h1>Contact Me</h1>
+        <div class="col-8">
+            <form action="/action_page.php">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="message">message</label>
+                        <textarea class="form-control" rows="5" id="msg">
+                        </textarea>    
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+        <div class="col-2">
+        </div>
+        </div>
+    </div>    
+
+<!-- even easier than the portfolio, Thank the Lord! -->
+
+
+        <div id="footer">
+                <div class="fixed-bottom">
+                    <div class="row m-4">
+                        <div class="align-middle">
+                        <p>Here is my sticky footer.</p>
+                        </div>
+                    </div>    
+                </div>    
+            </div>
+        </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
